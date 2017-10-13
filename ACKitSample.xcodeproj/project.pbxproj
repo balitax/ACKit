@@ -17,6 +17,9 @@
 		B94CF5361F8BA7AF005DBCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94CF5341F8BA7AF005DBCD2 /* LaunchScreen.storyboard */; };
 		B94CF5411F8BA7AF005DBCD2 /* ACKitSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CF5401F8BA7AF005DBCD2 /* ACKitSampleTests.swift */; };
 		B94CF54C1F8BA7AF005DBCD2 /* ACKitSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CF54B1F8BA7AF005DBCD2 /* ACKitSampleUITests.swift */; };
+		B96622561F9103D4007C41EA /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96622551F9103D4007C41EA /* NSAttributedString+Extensions.swift */; };
+		B96622581F9103F9007C41EA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96622571F9103F9007C41EA /* String+Extensions.swift */; };
+		B966225A1F910416007C41EA /* UINavigation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96622591F910416007C41EA /* UINavigation+Extensions.swift */; };
 		B9DF3F171F8BAA61003566C8 /* ErrorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF3F161F8BAA61003566C8 /* ErrorKit.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		B94CF5471F8BA7AF005DBCD2 /* ACKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94CF54B1F8BA7AF005DBCD2 /* ACKitSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACKitSampleUITests.swift; sourceTree = "<group>"; };
 		B94CF54D1F8BA7AF005DBCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96622551F9103D4007C41EA /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		B96622571F9103F9007C41EA /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		B96622591F910416007C41EA /* UINavigation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigation+Extensions.swift"; sourceTree = "<group>"; };
 		B9DF3F161F8BAA61003566C8 /* ErrorKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorKit.swift; sourceTree = "<group>"; };
 		CBEC93769BEDC3029B1889CB /* Pods-ACKitSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACKitSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACKitSampleUITests/Pods-ACKitSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F338FDDBFC6E2BAF4074CD23 /* Pods-ACKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACKitSample/Pods-ACKitSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 		B9DF3F141F8BA9C9003566C8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B96622551F9103D4007C41EA /* NSAttributedString+Extensions.swift */,
+				B96622571F9103F9007C41EA /* String+Extensions.swift */,
+				B96622591F910416007C41EA /* UINavigation+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -487,9 +496,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96622581F9103F9007C41EA /* String+Extensions.swift in Sources */,
+				B966225A1F910416007C41EA /* UINavigation+Extensions.swift in Sources */,
 				B9DF3F171F8BAA61003566C8 /* ErrorKit.swift in Sources */,
 				B94CF52E1F8BA7AF005DBCD2 /* ViewController.swift in Sources */,
 				B94CF52C1F8BA7AF005DBCD2 /* AppDelegate.swift in Sources */,
+				B96622561F9103D4007C41EA /* NSAttributedString+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
