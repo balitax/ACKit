@@ -11,4 +11,10 @@ import UIKit
 
 extension UINavigationController {
     
+    func setTransparentHeaderNavigation() {
+        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.isTranslucent = true
+    }
+    
 }
